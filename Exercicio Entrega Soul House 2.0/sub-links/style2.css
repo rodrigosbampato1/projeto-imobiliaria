@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    margin: 0;
+    
+}
+
+body h1{
+    text-align: center;
+}
+
+body h3{
+    text-align: center;
+}
+
+body p{
+    text-align: justify;
+    
+}
+header {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    background-repeat: no-repeat;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 10%;
+}
+.menu {
+    width: 70%;
+    height: 50px;
+    background-image: linear-gradient(to left, #306DB4 20%, #004aad 40%, #5FA4FF);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;  
+}
+.menu ul li {
+    width: 100%;
+    float: left;
+}
+
+.menu a {
+    background-image: linear-gradient(to left, #306DB4 20%, #004aad 40%, #5FA4FF);
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden; 
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+    display: block;
+    width: 16.9%;
+    left: 16.8%;
+}
+
+.menu a:hover {
+    background-color: #f4f4f4;
+    color: rgb(221, 190, 54);
+}
+
+.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #ccc;
+    
+}
+
+.pesquisa {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    right: 1px;
+    background-image: linear-gradient(to left, #306DB4 20%, #004aad 40%, #5FA4FF);
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 40%;
+    height: 30px;
+}
+button {
+    width: 50px;
+    height: 30px;
+}   
+.somos1{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    background-color: burlywood;
+    line-height: 1.5;  
+}
+.somos2{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    background-color: cadetblue;
+    line-height: 1.5;
+}
+
+.somos3{
+    display: flex;
+    flex-direction:column;
+    line-height: 1.5;
+    background-color:rgba(192, 145, 236, 0.521);
+    height: 30vh;
+}
+.cultura {
+    display: flex;
+    flex-flow: row;
+}
+.somos3 h1 {
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+}
+.somos3 p{
+    text-align: center;
+}
+.d1 img{
+    
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 10px;  
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+.d2{
+    
+    width: 600px;
+    height: 175px;
+    margin: 100px;
+}
+
+.d3{
+    
+    width: 500px;
+    height: 175px;
+    margin: 60px;
+    
+}
+
+.d4 img{
+    
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.d5{
+    width: 100%;
+    height: 100px;
+}
+h3 {
+    font-family: 'Staatliches', cursive;
+}
+
+.d6{
+    
+    width: 100%;
+    height: 75px;
+}
+.d7{
+    
+    width: 100%;
+    height: 75px;
+}
+
+.fundo{
+    
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-flow: column;
+    height: 20vh;
+    align-items: center;
+    margin-top: 15px;
+}
+.devs h3 {
+    text-align: center;
+}
+.rds {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    margin-top: 20px;
+}
+.rds img {
+    width: 40px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    
+}
+.formu{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+    text-align: center;
+ 
+    align-items: center;
+}
+.fir{
+    width: 90%;
+}
