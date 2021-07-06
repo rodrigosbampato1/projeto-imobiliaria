@@ -25,17 +25,32 @@
 
     <main>
         <nav class="menu-2">
-            <ul>
-                <li><a href="">ALUGAR</a></li>
-                <li><a href="">COMPRAR</a></li>
-            </ul>
-            <form action=" " method="post">
-                <input type="search" id="busca" name="q" placeholder="Encontre aqui"> 
+
+        <div class="opcao">
+            <select>
+                <option value="">Escolha a Modalidade</option>
+                <option value="">Comprar</option>
+                <option value="">Alugar</option>
+                <option value="">Temporada</option>
+            </select>
+
+            <select>
+                <option value="">Apartamentos</option>
+                <option value="">Casas</option>
+                <option value="">Kitnet</option>
+            </select>
+        </div>    
+        
+            <form>
+                <input type="search" placeholder="Encontre aqui"> 
                 <button type="submit">BUSCAR</button>
             </form>
         </nav>
 
         <section class="container-1">
+            <div class="capa1">
+
+            </div>
 
         </section>
         
@@ -60,19 +75,39 @@
                 </article>
 
                 <article class="box5">
+                    <div class="row">
+                        <div class="card green">
+                          <h2>Seu imóvel de acordo com o que você gosta</h2>
+                          <p>Na SoulHouse, você pode contar com o serviço de personalização. Aqui você escolhe a paleta de cores, os tipos de móveis e muito mais, tudo sem sem custo adicional</p>
+                          <img class="image" src="./img/icones-card/icones-card/feedback-do-cliente.png" alt="money" />
+                        </div>
+                   
+                        <div class="card blue">
+                          <h2>Alugue seu imóvel</h2>
+                          <p>Caso você tenha um imóvel e queira alugar a SoulHouse pode ser o agente intermediador entre você e seu inquilino, você também pode. 
+                              Todo esse serviço com a menor taxa do mercado e se preocupar com juros absurdos.</p>
+                          <img class="image" src="./img/icones-card/icones-card/trabalhando-em-casa.png" alt="settings" />
+                        </div>
+                   
+                        <div class="card red">
+                          <h2>Fuja de burocracia!</h2>
+                          <p>Aqui na SoulHouse, antes mesmo de fechar o contrato já deixamos prontos os documentos necessário, com o nosso modelo próprio, caso o cliente desista das negociações não é preciso se preocupar com o descarte das documentações.</p>
+                          <img class="image" src="./img/icones-card/icones-card/documentos.png" alt="article" />
+                        </div>
+                      </div>
 
                 </article>
             </section>
         </div>
     </main>
 
-    <aside>
+    <!-- <aside>
         <nav>
             <ul>
                 <li><img src="./img/banner1.png" alt="" width="1000px"></li>
             </ul>
         </nav>
-    </aside>
+    </aside> -->
 
     <hr>
 
@@ -87,14 +122,20 @@
         </div>
         <div class="rds">
             <a href="https://www.linkedin.com/company/soulcodeacademy/" target="_blank"><img class="linke"
-                    src="img/linkdin1.jpg" alt=""></a>
+                    src="./img/icones-redes/icones-redes/linkedin.png" alt=""></a>
             <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img class="insta"
-                    src="img/instagram1.jpg" alt=""></a>
-            <a href="https://www.facebook.com/SoulCodeAcademy" target="_blank"><img class="face" src="img/facebook1.jpg"
+                    src="./img/icones-redes/icones-redes/instagram (1).png" alt=""></a>
+            <a href="https://www.facebook.com/SoulCodeAcademy" target="_blank"><img class="face" src="./img/icones-redes/icones-redes/facebook (1).png"
                     alt=""></a>
             <a href="https://soulcodeacademy.org/"><img class="soul" src="img/SoulCodeAcademy1.png" alt=""></a>
         </div>
     </footer>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+        z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
     
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
