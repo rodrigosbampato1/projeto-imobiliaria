@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,8 +25,8 @@
     </header>
 
     <main>
-        <nav class="menu-2">
 
+        <nav class="menu-2">
         <div class="opcao">
             <select>
                 <option value="">Escolha a Modalidade</option>
@@ -35,10 +36,11 @@
             </select>
 
             <select>
-                <option value="">Apartamentos</option>
+                <option value="apt"><a href="">Apartamentos</a></option>
                 <option value="">Casas</option>
                 <option value="">Kitnet</option>
             </select>
+            <button class="go" type="button">GO</button>
         </div>    
         
             <form>
@@ -131,22 +133,24 @@
         </div>
     </footer>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+    <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
         z-index:1000;" target="_blank">
         <i style="margin-top:16px" class="fa fa-whatsapp"></i>
-        </a>
+    </a>
     
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

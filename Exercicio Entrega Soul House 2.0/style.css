@@ -49,12 +49,12 @@ header {
 .menu-2 {
     position: absolute;
     top: 34%;
-    left: 20%;
+    left: 16%;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
-    width: 60%;
+    width: 70%;
     height: 15vh;
     color: white;
     border-radius: 35px;
@@ -67,8 +67,17 @@ header {
 }
 .menu-2 select {
     height: 5vh;
-    width: 49%;
-    font-size: 16px;
+    width: 45%;
+    font-size: 18px;
+    font-family: cursive;
+}
+.menu-2 .go {
+    border-radius: 50px;
+    width: 40px;
+    background-color: #10b1daa8;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
 }
 .menu-2 form {
     display: flex;
@@ -79,8 +88,9 @@ header {
 }
 .menu-2 input {
     height: 5vh;
-    width: 80%;
+    width: 75%;
     font-size: 20px;
+    font-family: cursive;
 }
 .menu-2 form button {
     width: 100px;
@@ -89,6 +99,7 @@ header {
     color: white;
     border-radius: 10px;
     font-size: 20px;
+    font-family: cursive;
 }
 .container-1 {
     width: 100%;
